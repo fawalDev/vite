@@ -3,7 +3,7 @@ import javascriptLogo from './javascript.svg'
 // import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
-console.log(import.meta.env.VITE_HOST);
+console.log(import.meta.env);
 
 
 document.querySelector('#app').innerHTML = `
