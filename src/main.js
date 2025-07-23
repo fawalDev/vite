@@ -1,6 +1,6 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
-import viteLogo from 'vite.svg'
+// import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
 console.log(import.meta.env.VITE_HOST);
@@ -9,7 +9,7 @@ console.log(import.meta.env.VITE_HOST);
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
+      <img src="vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
